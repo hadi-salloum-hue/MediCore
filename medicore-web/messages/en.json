@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "MediCore — Clinic Management, Simplified",
+    "description": "All-in-one cloud software for clinics and medical centers: appointments, patient files, staff, billing and reports."
+  },
+  "common": {
+    "bookDemo": "Book a Demo",
+    "contactUs": "Contact us",
+    "backToTop": "Back to top"
+  },
+  "nav": {
+    "features": "Features",
+    "how": "How it Works",
+    "faq": "FAQ",
+    "contact": "Contact us",
+    "homeLabel": "MediCore home",
+    "mainLabel": "Main navigation",
+    "languageLabel": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "theme": "Dark mode"
+  },
+  "hero": {
+    "badge": "Modern Clinical Operating Platform",
+    "title": "Clinic management, simplified.",
+    "titleAccent": "",
+    "description": "The straightforward, all-in-one software for outpatient clinics and medical practices. Schedule appointments, coordinate staff, and access patient files without clutter or complexity.",
+    "secondary": "Explore Features",
+    "privacy": "Built with privacy in mind",
+    "languages": "Arabic & English"
+  },
+  "preview": {
+    "initials": "AN",
+    "clinicName": "Al-Noor Medical Center",
+    "subtitle": "Daily Clinical Board",
+    "badge": "Illustrative product preview",
+    "stats": [
+      {
+        "label": "Today's Appointments",
+        "value": "3"
+      },
+      {
+        "label": "Patients Waiting",
+        "value": "1"
+      },
+      {
+        "label": "Completed Visits",
+        "value": "1"
+      }
+    ],
+    "status": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "waiting": "Waiting"
+    },
+    "rows": [
+      {
+        "time": "09:00 AM",
+        "patient": "Tariq Jameel",
+        "doctor": "Dr. Huda Qasim • Dermatology",
+        "status": "completed"
+      },
+      {
+        "time": "09:30 AM",
+        "patient": "Kareem Zaid",
+        "doctor": "Dr. Laila Mansour • Dentistry",
+        "status": "inProgress"
+      },
+      {
+        "time": "10:00 AM",
+        "patient": "Mariam Nabil",
+        "doctor": "Dr. Omar Farooq • Pediatrics",
+        "status": "waiting"
+      }
+    ]
+  },
+  "features": {
+    "title": "Essential tools designed for everyday clinical flow",
+    "subtitle": "Everything your practice needs to operate without friction, confusion, or redundant data entry.",
+    "items": [
+      {
+        "title": "Appointment Scheduling",
+        "description": "Organize appointments by doctor and day, with conflict detection to prevent double bookings."
+      },
+      {
+        "title": "Patient Management",
+        "description": "Keep patient files, contact details, and visit history organized in one place."
+      },
+      {
+        "title": "Staff & Roles",
+        "description": "Add doctors and staff with role-based access, working hours, and time off."
+      },
+      {
+        "title": "Billing & Payments",
+        "description": "Create invoices, record full or partial payments, and track outstanding balances."
+      },
+      {
+        "title": "Clinic Reports",
+        "description": "Track appointments, completed visits, no-shows, and revenue for any period."
+      },
+      {
+        "title": "Arabic & English",
+        "description": "Full right-to-left Arabic and left-to-right English support on every screen."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Simple 3-step setup to launch your clinic",
+    "subtitle": "Get your clinic running in three simple steps.",
+    "items": [
+      {
+        "title": "Set Up Your Clinic",
+        "description": "Configure clinic details, working hours, doctors, and medical specialties in straightforward forms."
+      },
+      {
+        "title": "Add Your Patients",
+        "description": "Create patient files with quick-entry forms and build your records from day one."
+      },
+      {
+        "title": "Run Daily Operations",
+        "description": "Book appointments, check patients in, and manage the waiting list without friction."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Clear answers about privacy, language support, and system onboarding.",
+    "items": [
+      {
+        "q": "How does MediCore protect clinic and patient data?",
+        "a": "MediCore is designed with privacy and security as core principles: each clinic's data is isolated from other clinics, access is controlled by user role, and sensitive actions are logged. Legal and data-protection requirements differ by country, so we're happy to walk you through our approach during a demo."
+      },
+      {
+        "q": "Does MediCore support Arabic and English?",
+        "a": "Yes. The whole interface works in Arabic (right-to-left) and English (left-to-right), and you can switch at any time."
+      },
+      {
+        "q": "Does MediCore work on tablets (iPads) and front-desk computers?",
+        "a": "Yes. MediCore is cloud-based and responsive. It operates smoothly across desktop browsers (Mac, Windows) and tablets without requiring local server setups."
+      },
+      {
+        "q": "How easy is it for clinic staff to get onboarded?",
+        "a": "MediCore is built around simple daily screens for reception, doctors, and accounting. We'll walk your team through it during your demo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to streamline your clinic?",
+    "description": "Experience how clean, modern software helps your physicians focus on care and eliminates administrative headaches."
+  },
+  "footer": {
+    "rights": "© {year} <brand>MediCore Health Systems</brand>. All rights reserved.",
+    "contact": "Contact us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "dialog": {
+    "title": "Request a Live Demo",
+    "description": "See MediCore in action tailored to your clinic's specialty.",
+    "close": "Close",
+    "name": "Full name",
+    "namePlaceholder": "Dr. Sarah Jenkins",
+    "clinic": "Clinic / practice name",
+    "clinicPlaceholder": "Al-Noor Medical Center",
+    "email": "Work email",
+    "emailPlaceholder": "name@yourclinic.com",
+    "specialty": "Specialty (optional)",
+    "specialtyPlaceholder": "Select a specialty",
+    "specialties": {
+      "general": "General Medicine",
+      "dentistry": "Dentistry",
+      "dermatology": "Dermatology",
+      "pediatrics": "Pediatrics",
+      "ophthalmology": "Ophthalmology",
+      "physiotherapy": "Physiotherapy",
+      "other": "Other"
+    },
+    "consent": "I agree to be contacted about MediCore and accept the <privacy>Privacy Policy</privacy>.",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "success": {
+      "title": "Demo request received",
+      "message": "Thank you! Our team will contact you shortly to arrange a time.",
+      "done": "Close"
+    },
+    "error": {
+      "title": "We couldn't send your request",
+      "message": "Please check your connection and try again, or contact us by email."
+    },
+    "requiredHint": "All fields are required except specialty.",
+    "specialtyOther": "Your specialty",
+    "specialtyOtherPlaceholder": "e.g. Cardiology"
+  },
+  "errors": {
+    "name": "Please enter your full name.",
+    "clinic": "Clinic name is required.",
+    "email": "Please enter a valid work email.",
+    "consent": "Please accept to continue.",
+    "specialtyOther": "Please type your specialty."
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Service",
+    "draft": "This page is a placeholder. The final text will be published before launch."
+  }
+}
