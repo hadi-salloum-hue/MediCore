@@ -66,17 +66,18 @@ export function DashboardPreview() {
             <li
               key={row.time}
               style={{ animationDelay: `${650 + index * 150}ms` }}
-              className="animate-rise grid grid-cols-[auto_1fr_auto] items-center gap-x-3 rounded-lg border border-brand-border bg-brand-bg px-3 py-2.5"
+              className="animate-rise grid grid-cols-[auto_1fr_auto] items-center gap-x-2 rounded-lg border border-brand-border bg-brand-bg px-2.5 py-2.5 sm:gap-x-3 sm:px-3"
             >
-              <span className="w-[4.25rem] text-xs font-semibold tabular-nums text-brand-ink">
+              <span className="w-[3.75rem] text-xs font-semibold tabular-nums text-brand-ink sm:w-[4.25rem]">
                 <bdi dir="ltr">{row.time}</bdi>
               </span>
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-brand-text">{row.patient}</p>
                 <p className="break-words text-xs text-brand-muted">{row.doctor}</p>
               </div>
-              <span className={clsx('inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium', className)}>
-                <Icon aria-hidden className="h-3.5 w-3.5" />
+              <span className={clsx('inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2 py-0.5 text-xs font-medium', className)}>
+                {/* Text label always stays; the icon is hidden on phones to give the names more room. */}
+                <Icon aria-hidden className="hidden h-3.5 w-3.5 sm:block" />
                 {t(`status.${row.status}`)}
               </span>
             </li>
